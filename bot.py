@@ -5,7 +5,7 @@ from discord.ext import commands, tasks
 from dotenv import load_dotenv
 
 import db, config
-from scheduler import Scheduler, utcnow
+from task_scheduler import task_Scheduler, utcnow
 
 load_dotenv()
 
